@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <project name="AdidasUITest" default="Run" basedir=".">
+ <property name="src.dir" value="${basedir}/src"/>
+ <property name="build.dir" value="${basedir}/build"/>
+ <property name="testng_output.dir" value="${basedir}/reports"/>
+  <property name="target" value="1.8" />
+   <property name="source" value="1.8" /> 
+       	
+ 
+ 
+ <!-- get class path, used for build -->
+ <property name="lib.dir" value="${basedir}/lib"/>
+
+ <path id="classpath">
+        <fileset dir="${lib.dir}" includes="*.jar"/>
+  <pathelement location="build"/>
+       </path>
+ 
+ <!-- create build folder, testng_output folder and remove old log file -->
+ <target name="init">
+  <delete dir="${build.dir}"/>
+  <delete dir="${testng_output}"/>
+  <delete dir="${basedir}/testng-xslt"/>
+  <delete dir="${basedir}/reports/screenshots"/>
+  <mkdir dir="${build.dir}"/>
+  <mkdir dir="${basedir}/testng-xslt"/>
+  <mkdir dir="${testng_output.dir}"/>
+  <mkdir dir="${basedir}/reports/screenshots"/>	
+        
+ </target>
+ 
+ <!-- build all java file to class binary -->
+ <target name="compile" depends="init">
+     <javac srcdir="${basedir}/src" destdir="${basedir}/build" classpathref="classpath" includeantruntime="false" target="${target}" debug="true" debuglevel="lines,vars,source">
+      <compilerarg value="-Xlint:unchecked"/>
+    </javac> 
+ 	<copy todir="${basedir}/build">
+ 	<fileset dir="${basedir}/src" excludes="**/*.java"/>
+ 	</copy>
+ </target>
+ 
+ <!-- Config for testng -->
+ <taskdef name="testng" classname="org.testng.TestNGAntTask">
+     <classpath>
+      <pathelement location="lib/testng-6.8.5.jar"/>
+     </classpath>
+  </taskdef>
+        	
+
+        	
+        	
+ <!-- execute testng after compile, then generate report -->
+ <target name ="Run" depends="compile">
+
+   <!-- config testng -->
+
+     <testng outputdir="${testng_output.dir}" classpathref="classpath" useDefaultListeners="true" listeners="framework.ExtentReporterNG" delegateCommandSystemProperties="true">
+
+       <!-- execute testcase follow testng.xml -->
+      <xmlfileset dir="${basedir}\TestFileSet" includes="AdidasUITest.xml"/>
+      
+      <!-- generate report title -->
+    
+     </testng>
+ </target>
+
+ <target name="xslt" depends="Run">
+                 
+     <xslt in="${basedir}/testng_output/testng-results.xml" style="${basedir}/testng-results.xsl" out="${basedir}/testng-xslt/index.html" processor="SaxonLiaison">
+                        
+            <param expression="${basedir}/testng-xslt/" name="testNgXslt.outputDir" />
+
+            <param expression="true" name="testNgXslt.sortTestCaseLinks" />
+
+            <param expression="FAIL,SKIP,PASS,CONF,BY_CLASS" name="testNgXslt.testDetailsFilter" />
+
+            <param expression="true" name="testNgXslt.showRuntimeTotals" />
+
+            <classpath refid="master-classpath">
+            </classpath>
+        </xslt>
+    </target>
+ 
+<property name="LIB" value="${basedir}/lib" />
+<property name="BIN" value="${basedir}/bin" />
+<path id="master-classpath">
+<pathelement location="${BIN}" />
+      <fileset dir="${LIB}">
+         <include name="**/*.jar" />
+      </fileset>
+</path>
+ 
+</project>
+

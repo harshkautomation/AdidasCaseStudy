@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+<!-- Adidas UI Locators-->
+<entry key="homepage.adidaslogo">(//a[contains(@class,'logo')])[1]</entry>
+<entry key="homepage.searchtextfield">//input[contains(@class,'searchinput')]</entry>
+<entry key="homepage.searchresultstext">//span[contains(text(),'Your Search results for ')]</entry>
+<entry key="homepage.producttitlesassearchresults">//div[contains(@class,'product-info-wrapper')]//span[contains(@class,'title')][1]</entry>
+
+<entry key="homepage.ordertrackerlink">(//a[text()='Help'])[1]</entry>
+<entry key="homepage.ordertrackerpage">//h2[text()='order tracker']</entry>
+<entry key="homepage.ordernumbertextfield">//label[contains(text(),'Order number')]/..//input</entry>
+<entry key="homepage.emailaddresstextfield">(//label[contains(text(),'Email')]/..//input)[2]</entry>
+<entry key="homepage.ordertrackervieworderbutton">//button//span[contains(text(),'VIEW ORDER')]</entry>
+<entry key="homepage.ordertrackerordernumbervalidationmsg">//span[contains(text(),'Please enter your order number. ')]</entry>
+<entry key="homepage.ordertrackeremailvalidationmsg">(//span[contains(text(),'Please enter a valid e-mail address')])[1]</entry>
+<entry key="homepage.ordertrackerinvalidcombinationdiv">//div[contains(@class,'error-notification')]</entry>
+<entry key="homepage.ordertrackerinvalidcombinationheader">//div[contains(@class,'error-notification')]//h3</entry>
+<entry key="homepage.ordertrackerinvalidcombinationmessage">//div[contains(@class,'error-notification')]//span</entry>
+
+
+
+<entry key="mensection.sortbyfield">(//div[contains(@class,'sort-products')])[1]</entry>
+<entry key="mensection.sortbyfieldoptions">(//div[contains(@class,'sort-products')])[1]//li</entry>
+<entry key="mensection.sortfeatureproductitemsprice">//div[contains(@class,'product-info-wrapper')]//span[contains(@class,'salesprice')]</entry>
+
+<entry key="homepage.viewbagicon">//a[contains(@class,'addtobag')]</entry>
+<entry key="homepage.viewbagemptymessageonmousehover">//div[contains(@class,'minicart flyout')]//div[contains(text(),'Your Bag is Empty')]</entry>
+<entry key="viewbagsection.acceptedpaymentssection">//h4[contains(text(),'Accepted Payment Methods')]</entry>
+<entry key="viewbagsection.emptybag">//h1[contains(text(),'Your Bag is Empty')]</entry>
+
+<entry key="fromhomepage.toselectedtabsection">//div[contains(@class,'main-menu')]//a[text()='%s']</entry>
+<entry key="fromhomepage.displayallsubcategories">((//div[contains(@class,'main-line')])[1]//a)[1]</entry>
+<entry key="mensection.categorylandingpage">//h1[contains(text(),'"+categoryName+"')]</entry>
+<entry key="mensection.waitallimagestoload">//img[contains(@class,'lazyload show')]</entry>
+<entry key="mensectionjersey.firstitem">(//a[contains(@class,'product-images')]//img[contains(@class,'lazyload show')])[1]</entry>
+<entry key="mensectionjersey.getfirstitemtext">(//div[contains(@class,'product-info-wrapper')]//a//span[1])[1]</entry>
+<entry key="mensectionjersey.getfirstitemcurrency">(//div[contains(@class,'info-price-rating')]//span[contains(@class,'currency-sign')])[1]</entry>
+<entry key="mensectionjersey.getfirstitemsalesprice">(//div[contains(@class,'info-price-rating')]//span[contains(@class,'salesprice')])[1]</entry>
+<entry key="mensection.addtobagbutton">//div[contains(@class,'add_to_bag_container')]//button[contains(text(),'Add To Bag')]</entry>
+<entry key="mensection.ordersummaryitemtext">//div[contains(@class,'product_information')]//h1</entry>
+<entry key="mensection.ordersummaryitemprice">//div[contains(@class,'product_information')]//span[contains(@class,'price-big')]</entry>
+<entry key="mensection.ordersummaryitemselectsize">//div[contains(text(),'Select size')]</entry>
+<entry key="mensection.ordersummaryitemsizes">//div[contains(text(),'Select size')]/ancestor::div[contains(@class,'wrapper')]//span//li</entry>
+<entry key="mensection.successfullyaddedtobag">(//h6[contains(text(),'Successfully added to bag')])[2]</entry>
+<entry key="mensection.reloadbutton">//div[contains(@class,'add_to_bag_container')]//button[contains(text(),'Reload')]</entry>
+
+<entry key="mensection.viewbagbutton">((//h6[contains(text(),'Successfully added to bag')])[2]/ancestor::div[contains(@class,'glass-modal-dialog')]//a[contains(text(),'View Bag')])[1]</entry>
+<entry key="mensection.viewbagtitle">//h1[contains(text(),'Your Bag')]</entry>
+<entry key="mensection.viewbagitemtext">(//div[contains(@class,'detailscolumn')]//div[contains(@class,'product')]//a)[1]</entry>
+<entry key="mensection.viewbagitemprice">//div[contains(@class,'totalprice')]</entry>
+
+<entry key="mensection.getitemcurrencysign">//span[contains(text(),'%s')]/ancestor::div[contains(@class,'product-info-wrapper')]//span[contains(@class,'currency-sign')]</entry>
+<entry key="mensection.getitemprice">//span[contains(text(),'%s')]/ancestor::div[contains(@class,'product-info-wrapper')]//span[contains(@class,'salesprice')]</entry>
+<entry key="mensection.selectproductitem">//span[contains(text(),'%s')]</entry>
+</properties>

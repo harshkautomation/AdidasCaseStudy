@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[LOG : printing the data]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status code is-->200]]>
+    </line>
+    <line>
+      <![CDATA[LOG : JSON String-->{"component_presentations":[{"component":{"content_fields":{"items":[{"title":"Prophere","summary":"Provocative and uncompromising.","calls_to_action":[{"title":"Shop now","cta_text":"Shop now","external_link":"/originals_prophere","target":"default"},{"title":"Discover more","cta_text":"Discover more","external_link":"/prophere","target":"default"}],"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/originals-ss18-prophere-hp-mh-d-followup_tcm146-231798.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/originals-ss18-prophere-hp-mh-d-followup_tcm146-231798.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/originals-ss18-prophere-hp-mh-m-followup_tcm146-231797.jpg"}},"supporting_fields":{"supporting_fields":{"standard_metadata":{"analytics_name":"MASTHEAD-PROPHERE","style_overrides":{"display_styles":"display-style-white"}}}}},{"title":"MASTER CONTROL","summary":"From the stadium to the street, your control is complete with the new PREDATOR 18.","calls_to_action":[{"title":"SHOP NOW","cta_text":"SHOP NOW","external_link":"/predator","target":"default"},{"title":"EXPLORE","cta_text":"EXPLORE","external_link":"/predator_18","target":"default"}],"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FB_SS18_Skystalker_Predator_HP_MH_Predator_S2S_Desktop(1)_tcm146-228977.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FB_SS18_Skystalker_Predator_HP_MH_Predator_S2S_Desktop(1)_tcm146-228977.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FB_SS18_Skystalker_Predator_HP_MH_Predator_S2S_Mobile(1)_tcm146-228978.jpg"}},"supporting_fields":{"supporting_fields":{"metadata":{"translationCampaign":"football-ss18-skystalker-hp-mh-predator-combined-product","translationContentOwner":"Tridion Brand"},"standard_metadata":{"style_overrides":{"display_styles":"display-style-white"}}}}},{"title":"UltraBOOST Laceless","summary":"Ready for you to become greater every run.","calls_to_action":[{"title":"SHOP WOMEN'S","cta_text":"SHOP WOMEN'S","external_link":"/women-ultra_boost","target":"default"},{"title":"SHOP MEN'S","cta_text":"SHOP MEN'S","external_link":"/men-ultra_boost","target":"default"}],"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/H21179-SS18-UB-Laceless-Women-HP-Masthead-Desktop-1366x830_tcm146-193317.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/H21179-SS18-UB-Laceless-Women-HP-Masthead-Desktop-1366x830_tcm146-193317.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/H21179-SS18-UB-Laceless-Women-HP-Masthead-Mobile-640x546_tcm146-193316.jpg"}},"supporting_fields":{"supporting_fields":{"standard_metadata":{"style_overrides":{"display_styles":"display-style-black"}}}}}]},"id":"tcm:146-173527","component_type":"Core Schema - Component List"},"template_metadata":{"template":"MastheadLargeCarouselTextLeft","region":"1"},"order_on_page":0},{"component":{"id":"tcm:146-173855","component_type":"Core Schema - Navigation"},"template_metadata":{"template":"glass-mobile-navigation","region":"1"},"order_on_page":1},{"component":{"content_fields":{"items":[{"title":"Save up to 50%","media_items":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-m_tcm146-232614.jpg"}},"calls_to_action":{"title":"Shop now","cta_text":"Shop now","external_link":"/outlet?grid=true","target":"default"},"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-m_tcm146-232614.jpg"}},"supporting_fields":{"supporting_fields":{"metadata":{"translationCampaign":"eoss-ss18-hp-fc-glass","translationContentOwner":"Tridion Brand"}}}},{"title":"Create shoes your way","media_items":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"}},"calls_to_action":{"title":"Design Your Own","cta_text":"Design Your Own","external_link":"/customise","target":"default"},"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"}},"supporting_fields":{"supporting_fields":{"standard_metadata":{"analytics_name":"MIADIDAS_TEASER"}}}},{"title":"FROM THREAT INTO THREAD.","calls_to_action":{"title":"SHOP ADIDAS X PARLEY","cta_text":"SHOP ADIDAS X PARLEY","external_link":"/parley-swimwear-clothing","target":"default"},"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/Swimming_ss18_featurecard_mixed_desktop_mobile_tcm146-193204.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/Swimming_ss18_featurecard_mixed_desktop_mobile_tcm146-193204.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/Swimming_ss18_featurecard_mixed_desktop_mobile_tcm146-193204.jpg"}},"supporting_fields":{"supporting_fields":{"metadata":{"translationCampaign":"swimming-parley-ss18-hp-fc-mixed","translationContentOwner":"Tridion Brand"}}}},{"title":"Gifts that mean more","calls_to_action":{"title":"Find the perfect gifts","cta_text":"Find the perfect gifts","external_link":"/gifts","target":"default"},"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FtC_Double_Desktop_Generic_tcm146-192685.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FtC_Double_Desktop_Generic_tcm146-192685.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FtC_Double_Desktop_Generic_tcm146-192685.jpg"}},"supporting_fields":{"supporting_fields":{"metadata":{"translationCampaign":"holiday-gifts-fw17-hp-fc-double-glass","translationContentOwner":"Tridion Brand"}}}}]},"id":"tcm:146-173528","component_type":"Core Schema - Component List"},"template_metadata":{"template":"TeasersBlockTextCenter","region":"1"},"order_on_page":2},{"component":{"content_fields":{"title":"BEST OF ADIDAS","app_id":"adidaswebfi","certona_zone_id":"home_rr","certona_recommendation_count":16},"supporting_fields":{"supporting_fields":{"metadata":{"translationCampaign":"certona-homepage","translationContentOwner":"Tridion Brand"}}},"id":"tcm:146-173637","component_type":"Core Schema - Certona"},"template_metadata":{"template":"glass-recommendation-stack","region":"1"},"order_on_page":3}],"regions":[{"id":"1","name":"Dummy Region"}],"id":"tcm:146-172028-64","publication_path":"TODO","title":"index","revision_date":"2017-10-29T15:07:43.000Z","version":15,"uri":"/enFI/dot-com/index.html","last_published_date":"2017-12-29T23:01:03.383Z","locale":{"code":"TODO","language":"TODO","country_code":"TODO"},"metadata":{"template":"LandingPage","metadata_tags":[{"tag_name":"description","tag_content":"Tervetuloa adidas verkkokauppaan. Löydät adidaksen kengät, vaatteet ja asusteet. Uudet mallistot: adidas Originals, juoksu, jalkapallo, treeni ja monet muut."},{"tag_name":"title","tag_content":"adidas virallinen verkkosivusto | adidas Suomi"},{"tag_name":"canonical","tag_content":"https://www.adidas.fi/"},{"tag_name":"robots","tag_content":"noodp, noydir, index, follow, archive, noyaca"},{"tag_name":"og:title","tag_content":"adidas virallinen verkkosivusto | adidas Suomi"},{"tag_name":"og:description","tag_content":"Tervetuloa adidas verkkokauppaan. Löydät adidaksen kengät, vaatteet ja asusteet. Uudet mallistot: adidas Originals, juoksu, jalkapallo, treeni ja monet muut."},{"tag_name":"og:url","tag_content":"https://www.adidas.fi"},{"tag_name":"og:site_name","tag_content":"adidas Finland"}]}}]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verified response time is below 1s.]]>
+    </line>
+    <line>
+      <![CDATA[LOG : Status->200]]>
+    </line>
+    <line>
+      <![CDATA[LOG : JSON String-->{"component_presentations":[{"component":{"content_fields":{"items":[{"title":"Prophere","summary":"Provocative and uncompromising.","calls_to_action":[{"title":"Shop now","cta_text":"Shop now","external_link":"/originals_prophere","target":"default"},{"title":"Discover more","cta_text":"Discover more","external_link":"/prophere","target":"default"}],"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/originals-ss18-prophere-hp-mh-d-followup_tcm146-231798.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/originals-ss18-prophere-hp-mh-d-followup_tcm146-231798.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/originals-ss18-prophere-hp-mh-m-followup_tcm146-231797.jpg"}},"supporting_fields":{"supporting_fields":{"standard_metadata":{"analytics_name":"MASTHEAD-PROPHERE","style_overrides":{"display_styles":"display-style-white"}}}}},{"title":"MASTER CONTROL","summary":"From the stadium to the street, your control is complete with the new PREDATOR 18.","calls_to_action":[{"title":"SHOP NOW","cta_text":"SHOP NOW","external_link":"/predator","target":"default"},{"title":"EXPLORE","cta_text":"EXPLORE","external_link":"/predator_18","target":"default"}],"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FB_SS18_Skystalker_Predator_HP_MH_Predator_S2S_Desktop(1)_tcm146-228977.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FB_SS18_Skystalker_Predator_HP_MH_Predator_S2S_Desktop(1)_tcm146-228977.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FB_SS18_Skystalker_Predator_HP_MH_Predator_S2S_Mobile(1)_tcm146-228978.jpg"}},"supporting_fields":{"supporting_fields":{"metadata":{"translationCampaign":"football-ss18-skystalker-hp-mh-predator-combined-product","translationContentOwner":"Tridion Brand"},"standard_metadata":{"style_overrides":{"display_styles":"display-style-white"}}}}},{"title":"UltraBOOST Laceless","summary":"Ready for you to become greater every run.","calls_to_action":[{"title":"SHOP WOMEN'S","cta_text":"SHOP WOMEN'S","external_link":"/women-ultra_boost","target":"default"},{"title":"SHOP MEN'S","cta_text":"SHOP MEN'S","external_link":"/men-ultra_boost","target":"default"}],"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/H21179-SS18-UB-Laceless-Women-HP-Masthead-Desktop-1366x830_tcm146-193317.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/H21179-SS18-UB-Laceless-Women-HP-Masthead-Desktop-1366x830_tcm146-193317.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/H21179-SS18-UB-Laceless-Women-HP-Masthead-Mobile-640x546_tcm146-193316.jpg"}},"supporting_fields":{"supporting_fields":{"standard_metadata":{"style_overrides":{"display_styles":"display-style-black"}}}}}]},"id":"tcm:146-173527","component_type":"Core Schema - Component List"},"template_metadata":{"template":"MastheadLargeCarouselTextLeft","region":"1"},"order_on_page":0},{"component":{"id":"tcm:146-173855","component_type":"Core Schema - Navigation"},"template_metadata":{"template":"glass-mobile-navigation","region":"1"},"order_on_page":1},{"component":{"content_fields":{"items":[{"title":"Save up to 50%","media_items":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-m_tcm146-232614.jpg"}},"calls_to_action":{"title":"Shop now","cta_text":"Shop now","external_link":"/outlet?grid=true","target":"default"},"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-m_tcm146-232614.jpg"}},"supporting_fields":{"supporting_fields":{"metadata":{"translationCampaign":"eoss-ss18-hp-fc-glass","translationContentOwner":"Tridion Brand"}}}},{"title":"Create shoes your way","media_items":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"}},"calls_to_action":{"title":"Design Your Own","cta_text":"Design Your Own","external_link":"/customise","target":"default"},"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"}},"supporting_fields":{"supporting_fields":{"standard_metadata":{"analytics_name":"MIADIDAS_TEASER"}}}},{"title":"FROM THREAT INTO THREAD.","calls_to_action":{"title":"SHOP ADIDAS X PARLEY","cta_text":"SHOP ADIDAS X PARLEY","external_link":"/parley-swimwear-clothing","target":"default"},"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/Swimming_ss18_featurecard_mixed_desktop_mobile_tcm146-193204.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/Swimming_ss18_featurecard_mixed_desktop_mobile_tcm146-193204.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/Swimming_ss18_featurecard_mixed_desktop_mobile_tcm146-193204.jpg"}},"supporting_fields":{"supporting_fields":{"metadata":{"translationCampaign":"swimming-parley-ss18-hp-fc-mixed","translationContentOwner":"Tridion Brand"}}}},{"title":"Gifts that mean more","calls_to_action":{"title":"Find the perfect gifts","cta_text":"Find the perfect gifts","external_link":"/gifts","target":"default"},"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FtC_Double_Desktop_Generic_tcm146-192685.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FtC_Double_Desktop_Generic_tcm146-192685.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FtC_Double_Desktop_Generic_tcm146-192685.jpg"}},"supporting_fields":{"supporting_fields":{"metadata":{"translationCampaign":"holiday-gifts-fw17-hp-fc-double-glass","translationContentOwner":"Tridion Brand"}}}}]},"id":"tcm:146-173528","component_type":"Core Schema - Component List"},"template_metadata":{"template":"TeasersBlockTextCenter","region":"1"},"order_on_page":2},{"component":{"content_fields":{"title":"BEST OF ADIDAS","app_id":"adidaswebfi","certona_zone_id":"home_rr","certona_recommendation_count":16},"supporting_fields":{"supporting_fields":{"metadata":{"translationCampaign":"certona-homepage","translationContentOwner":"Tridion Brand"}}},"id":"tcm:146-173637","component_type":"Core Schema - Certona"},"template_metadata":{"template":"glass-recommendation-stack","region":"1"},"order_on_page":3}],"regions":[{"id":"1","name":"Dummy Region"}],"id":"tcm:146-172028-64","publication_path":"TODO","title":"index","revision_date":"2017-10-29T15:07:43.000Z","version":15,"uri":"/enFI/dot-com/index.html","last_published_date":"2017-12-29T23:01:03.383Z","locale":{"code":"TODO","language":"TODO","country_code":"TODO"},"metadata":{"template":"LandingPage","metadata_tags":[{"tag_name":"description","tag_content":"Tervetuloa adidas verkkokauppaan. Löydät adidaksen kengät, vaatteet ja asusteet. Uudet mallistot: adidas Originals, juoksu, jalkapallo, treeni ja monet muut."},{"tag_name":"title","tag_content":"adidas virallinen verkkosivusto | adidas Suomi"},{"tag_name":"canonical","tag_content":"https://www.adidas.fi/"},{"tag_name":"robots","tag_content":"noodp, noydir, index, follow, archive, noyaca"},{"tag_name":"og:title","tag_content":"adidas virallinen verkkosivusto | adidas Suomi"},{"tag_name":"og:description","tag_content":"Tervetuloa adidas verkkokauppaan. Löydät adidaksen kengät, vaatteet ja asusteet. Uudet mallistot: adidas Originals, juoksu, jalkapallo, treeni ja monet muut."},{"tag_name":"og:url","tag_content":"https://www.adidas.fi"},{"tag_name":"og:site_name","tag_content":"adidas Finland"}]}}]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/originals-ss18-prophere-hp-mh-d-followup_tcm146-231798.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FB_SS18_Skystalker_Predator_HP_MH_Predator_S2S_Desktop(1)_tcm146-228977.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/H21179-SS18-UB-Laceless-Women-HP-Masthead-Desktop-1366x830_tcm146-193317.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/Swimming_ss18_featurecard_mixed_desktop_mobile_tcm146-193204.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FtC_Double_Desktop_Generic_tcm146-192685.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/originals-ss18-prophere-hp-mh-d-followup_tcm146-231798.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FB_SS18_Skystalker_Predator_HP_MH_Predator_S2S_Desktop(1)_tcm146-228977.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/H21179-SS18-UB-Laceless-Women-HP-Masthead-Desktop-1366x830_tcm146-193317.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/Swimming_ss18_featurecard_mixed_desktop_mobile_tcm146-193204.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FtC_Double_Desktop_Generic_tcm146-192685.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/originals-ss18-prophere-hp-mh-m-followup_tcm146-231797.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FB_SS18_Skystalker_Predator_HP_MH_Predator_S2S_Mobile(1)_tcm146-228978.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/H21179-SS18-UB-Laceless-Women-HP-Masthead-Mobile-640x546_tcm146-193316.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-m_tcm146-232614.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-m_tcm146-232614.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/Swimming_ss18_featurecard_mixed_desktop_mobile_tcm146-193204.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FtC_Double_Desktop_Generic_tcm146-192685.jpg]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Status is->200]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verified all the image URLs returned Http Status code as 200.]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Verifying analytics data..]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Http Get Status->200]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verified Component:1 contains analytics_name]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Component Type is-->"Core Schema - Component List"]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Analytics Name is-->"MASTHEAD-PROPHERE"]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verified Component:3 contains analytics_name]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Component Type is-->"Core Schema - Component List"]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Analytics Name is-->"MIADIDAS_TEASER"]]>
+    </line>
+  </reporter-output>
+  <suite name="APITestSuite" duration-ms="11404" started-at="2017-12-30T05:22:57Z" finished-at="2017-12-30T05:23:09Z">
+    <groups>
+    </groups>
+    <test name="APITests" duration-ms="11404" started-at="2017-12-30T05:22:57Z" finished-at="2017-12-30T05:23:09Z">
+      <class name="APITest.RestTest">
+        <test-method status="PASS" signature="Validate_Response_Time()[pri:0, instance:APITest.RestTest@4b9e13df]" name="Validate_Response_Time" duration-ms="1379" started-at="2017-12-30T10:52:57Z" finished-at="2017-12-30T10:52:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[LOG : printing the data]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status code is-->200]]>
+            </line>
+            <line>
+              <![CDATA[LOG : JSON String-->{"component_presentations":[{"component":{"content_fields":{"items":[{"title":"Prophere","summary":"Provocative and uncompromising.","calls_to_action":[{"title":"Shop now","cta_text":"Shop now","external_link":"/originals_prophere","target":"default"},{"title":"Discover more","cta_text":"Discover more","external_link":"/prophere","target":"default"}],"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/originals-ss18-prophere-hp-mh-d-followup_tcm146-231798.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/originals-ss18-prophere-hp-mh-d-followup_tcm146-231798.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/originals-ss18-prophere-hp-mh-m-followup_tcm146-231797.jpg"}},"supporting_fields":{"supporting_fields":{"standard_metadata":{"analytics_name":"MASTHEAD-PROPHERE","style_overrides":{"display_styles":"display-style-white"}}}}},{"title":"MASTER CONTROL","summary":"From the stadium to the street, your control is complete with the new PREDATOR 18.","calls_to_action":[{"title":"SHOP NOW","cta_text":"SHOP NOW","external_link":"/predator","target":"default"},{"title":"EXPLORE","cta_text":"EXPLORE","external_link":"/predator_18","target":"default"}],"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FB_SS18_Skystalker_Predator_HP_MH_Predator_S2S_Desktop(1)_tcm146-228977.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FB_SS18_Skystalker_Predator_HP_MH_Predator_S2S_Desktop(1)_tcm146-228977.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FB_SS18_Skystalker_Predator_HP_MH_Predator_S2S_Mobile(1)_tcm146-228978.jpg"}},"supporting_fields":{"supporting_fields":{"metadata":{"translationCampaign":"football-ss18-skystalker-hp-mh-predator-combined-product","translationContentOwner":"Tridion Brand"},"standard_metadata":{"style_overrides":{"display_styles":"display-style-white"}}}}},{"title":"UltraBOOST Laceless","summary":"Ready for you to become greater every run.","calls_to_action":[{"title":"SHOP WOMEN'S","cta_text":"SHOP WOMEN'S","external_link":"/women-ultra_boost","target":"default"},{"title":"SHOP MEN'S","cta_text":"SHOP MEN'S","external_link":"/men-ultra_boost","target":"default"}],"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/H21179-SS18-UB-Laceless-Women-HP-Masthead-Desktop-1366x830_tcm146-193317.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/H21179-SS18-UB-Laceless-Women-HP-Masthead-Desktop-1366x830_tcm146-193317.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/H21179-SS18-UB-Laceless-Women-HP-Masthead-Mobile-640x546_tcm146-193316.jpg"}},"supporting_fields":{"supporting_fields":{"standard_metadata":{"style_overrides":{"display_styles":"display-style-black"}}}}}]},"id":"tcm:146-173527","component_type":"Core Schema - Component List"},"template_metadata":{"template":"MastheadLargeCarouselTextLeft","region":"1"},"order_on_page":0},{"component":{"id":"tcm:146-173855","component_type":"Core Schema - Navigation"},"template_metadata":{"template":"glass-mobile-navigation","region":"1"},"order_on_page":1},{"component":{"content_fields":{"items":[{"title":"Save up to 50%","media_items":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-m_tcm146-232614.jpg"}},"calls_to_action":{"title":"Shop now","cta_text":"Shop now","external_link":"/outlet?grid=true","target":"default"},"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-m_tcm146-232614.jpg"}},"supporting_fields":{"supporting_fields":{"metadata":{"translationCampaign":"eoss-ss18-hp-fc-glass","translationContentOwner":"Tridion Brand"}}}},{"title":"Create shoes your way","media_items":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"}},"calls_to_action":{"title":"Design Your Own","cta_text":"Design Your Own","external_link":"/customise","target":"default"},"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"}},"supporting_fields":{"supporting_fields":{"standard_metadata":{"analytics_name":"MIADIDAS_TEASER"}}}},{"title":"FROM THREAT INTO THREAD.","calls_to_action":{"title":"SHOP ADIDAS X PARLEY","cta_text":"SHOP ADIDAS X PARLEY","external_link":"/parley-swimwear-clothing","target":"default"},"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/Swimming_ss18_featurecard_mixed_desktop_mobile_tcm146-193204.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/Swimming_ss18_featurecard_mixed_desktop_mobile_tcm146-193204.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/Swimming_ss18_featurecard_mixed_desktop_mobile_tcm146-193204.jpg"}},"supporting_fields":{"supporting_fields":{"metadata":{"translationCampaign":"swimming-parley-ss18-hp-fc-mixed","translationContentOwner":"Tridion Brand"}}}},{"title":"Gifts that mean more","calls_to_action":{"title":"Find the perfect gifts","cta_text":"Find the perfect gifts","external_link":"/gifts","target":"default"},"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FtC_Double_Desktop_Generic_tcm146-192685.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FtC_Double_Desktop_Generic_tcm146-192685.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FtC_Double_Desktop_Generic_tcm146-192685.jpg"}},"supporting_fields":{"supporting_fields":{"metadata":{"translationCampaign":"holiday-gifts-fw17-hp-fc-double-glass","translationContentOwner":"Tridion Brand"}}}}]},"id":"tcm:146-173528","component_type":"Core Schema - Component List"},"template_metadata":{"template":"TeasersBlockTextCenter","region":"1"},"order_on_page":2},{"component":{"content_fields":{"title":"BEST OF ADIDAS","app_id":"adidaswebfi","certona_zone_id":"home_rr","certona_recommendation_count":16},"supporting_fields":{"supporting_fields":{"metadata":{"translationCampaign":"certona-homepage","translationContentOwner":"Tridion Brand"}}},"id":"tcm:146-173637","component_type":"Core Schema - Certona"},"template_metadata":{"template":"glass-recommendation-stack","region":"1"},"order_on_page":3}],"regions":[{"id":"1","name":"Dummy Region"}],"id":"tcm:146-172028-64","publication_path":"TODO","title":"index","revision_date":"2017-10-29T15:07:43.000Z","version":15,"uri":"/enFI/dot-com/index.html","last_published_date":"2017-12-29T23:01:03.383Z","locale":{"code":"TODO","language":"TODO","country_code":"TODO"},"metadata":{"template":"LandingPage","metadata_tags":[{"tag_name":"description","tag_content":"Tervetuloa adidas verkkokauppaan. Löydät adidaksen kengät, vaatteet ja asusteet. Uudet mallistot: adidas Originals, juoksu, jalkapallo, treeni ja monet muut."},{"tag_name":"title","tag_content":"adidas virallinen verkkosivusto | adidas Suomi"},{"tag_name":"canonical","tag_content":"https://www.adidas.fi/"},{"tag_name":"robots","tag_content":"noodp, noydir, index, follow, archive, noyaca"},{"tag_name":"og:title","tag_content":"adidas virallinen verkkosivusto | adidas Suomi"},{"tag_name":"og:description","tag_content":"Tervetuloa adidas verkkokauppaan. Löydät adidaksen kengät, vaatteet ja asusteet. Uudet mallistot: adidas Originals, juoksu, jalkapallo, treeni ja monet muut."},{"tag_name":"og:url","tag_content":"https://www.adidas.fi"},{"tag_name":"og:site_name","tag_content":"adidas Finland"}]}}]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verified response time is below 1s.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Validate_Response_Time -->
+        <test-method status="PASS" signature="Validate_Image_URL()[pri:0, instance:APITest.RestTest@4b9e13df]" name="Validate_Image_URL" duration-ms="9660" started-at="2017-12-30T10:52:59Z" finished-at="2017-12-30T10:53:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[LOG : Status->200]]>
+            </line>
+            <line>
+              <![CDATA[LOG : JSON String-->{"component_presentations":[{"component":{"content_fields":{"items":[{"title":"Prophere","summary":"Provocative and uncompromising.","calls_to_action":[{"title":"Shop now","cta_text":"Shop now","external_link":"/originals_prophere","target":"default"},{"title":"Discover more","cta_text":"Discover more","external_link":"/prophere","target":"default"}],"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/originals-ss18-prophere-hp-mh-d-followup_tcm146-231798.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/originals-ss18-prophere-hp-mh-d-followup_tcm146-231798.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/originals-ss18-prophere-hp-mh-m-followup_tcm146-231797.jpg"}},"supporting_fields":{"supporting_fields":{"standard_metadata":{"analytics_name":"MASTHEAD-PROPHERE","style_overrides":{"display_styles":"display-style-white"}}}}},{"title":"MASTER CONTROL","summary":"From the stadium to the street, your control is complete with the new PREDATOR 18.","calls_to_action":[{"title":"SHOP NOW","cta_text":"SHOP NOW","external_link":"/predator","target":"default"},{"title":"EXPLORE","cta_text":"EXPLORE","external_link":"/predator_18","target":"default"}],"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FB_SS18_Skystalker_Predator_HP_MH_Predator_S2S_Desktop(1)_tcm146-228977.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FB_SS18_Skystalker_Predator_HP_MH_Predator_S2S_Desktop(1)_tcm146-228977.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FB_SS18_Skystalker_Predator_HP_MH_Predator_S2S_Mobile(1)_tcm146-228978.jpg"}},"supporting_fields":{"supporting_fields":{"metadata":{"translationCampaign":"football-ss18-skystalker-hp-mh-predator-combined-product","translationContentOwner":"Tridion Brand"},"standard_metadata":{"style_overrides":{"display_styles":"display-style-white"}}}}},{"title":"UltraBOOST Laceless","summary":"Ready for you to become greater every run.","calls_to_action":[{"title":"SHOP WOMEN'S","cta_text":"SHOP WOMEN'S","external_link":"/women-ultra_boost","target":"default"},{"title":"SHOP MEN'S","cta_text":"SHOP MEN'S","external_link":"/men-ultra_boost","target":"default"}],"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/H21179-SS18-UB-Laceless-Women-HP-Masthead-Desktop-1366x830_tcm146-193317.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/H21179-SS18-UB-Laceless-Women-HP-Masthead-Desktop-1366x830_tcm146-193317.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/H21179-SS18-UB-Laceless-Women-HP-Masthead-Mobile-640x546_tcm146-193316.jpg"}},"supporting_fields":{"supporting_fields":{"standard_metadata":{"style_overrides":{"display_styles":"display-style-black"}}}}}]},"id":"tcm:146-173527","component_type":"Core Schema - Component List"},"template_metadata":{"template":"MastheadLargeCarouselTextLeft","region":"1"},"order_on_page":0},{"component":{"id":"tcm:146-173855","component_type":"Core Schema - Navigation"},"template_metadata":{"template":"glass-mobile-navigation","region":"1"},"order_on_page":1},{"component":{"content_fields":{"items":[{"title":"Save up to 50%","media_items":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-m_tcm146-232614.jpg"}},"calls_to_action":{"title":"Shop now","cta_text":"Shop now","external_link":"/outlet?grid=true","target":"default"},"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-m_tcm146-232614.jpg"}},"supporting_fields":{"supporting_fields":{"metadata":{"translationCampaign":"eoss-ss18-hp-fc-glass","translationContentOwner":"Tridion Brand"}}}},{"title":"Create shoes your way","media_items":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"}},"calls_to_action":{"title":"Design Your Own","cta_text":"Design Your Own","external_link":"/customise","target":"default"},"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg"}},"supporting_fields":{"supporting_fields":{"standard_metadata":{"analytics_name":"MIADIDAS_TEASER"}}}},{"title":"FROM THREAT INTO THREAD.","calls_to_action":{"title":"SHOP ADIDAS X PARLEY","cta_text":"SHOP ADIDAS X PARLEY","external_link":"/parley-swimwear-clothing","target":"default"},"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/Swimming_ss18_featurecard_mixed_desktop_mobile_tcm146-193204.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/Swimming_ss18_featurecard_mixed_desktop_mobile_tcm146-193204.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/Swimming_ss18_featurecard_mixed_desktop_mobile_tcm146-193204.jpg"}},"supporting_fields":{"supporting_fields":{"metadata":{"translationCampaign":"swimming-parley-ss18-hp-fc-mixed","translationContentOwner":"Tridion Brand"}}}},{"title":"Gifts that mean more","calls_to_action":{"title":"Find the perfect gifts","cta_text":"Find the perfect gifts","external_link":"/gifts","target":"default"},"background_media":{"asset_type":"Image","desktop_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FtC_Double_Desktop_Generic_tcm146-192685.jpg"},"tablet_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FtC_Double_Desktop_Generic_tcm146-192685.jpg"},"mobile_image":{"url":"https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FtC_Double_Desktop_Generic_tcm146-192685.jpg"}},"supporting_fields":{"supporting_fields":{"metadata":{"translationCampaign":"holiday-gifts-fw17-hp-fc-double-glass","translationContentOwner":"Tridion Brand"}}}}]},"id":"tcm:146-173528","component_type":"Core Schema - Component List"},"template_metadata":{"template":"TeasersBlockTextCenter","region":"1"},"order_on_page":2},{"component":{"content_fields":{"title":"BEST OF ADIDAS","app_id":"adidaswebfi","certona_zone_id":"home_rr","certona_recommendation_count":16},"supporting_fields":{"supporting_fields":{"metadata":{"translationCampaign":"certona-homepage","translationContentOwner":"Tridion Brand"}}},"id":"tcm:146-173637","component_type":"Core Schema - Certona"},"template_metadata":{"template":"glass-recommendation-stack","region":"1"},"order_on_page":3}],"regions":[{"id":"1","name":"Dummy Region"}],"id":"tcm:146-172028-64","publication_path":"TODO","title":"index","revision_date":"2017-10-29T15:07:43.000Z","version":15,"uri":"/enFI/dot-com/index.html","last_published_date":"2017-12-29T23:01:03.383Z","locale":{"code":"TODO","language":"TODO","country_code":"TODO"},"metadata":{"template":"LandingPage","metadata_tags":[{"tag_name":"description","tag_content":"Tervetuloa adidas verkkokauppaan. Löydät adidaksen kengät, vaatteet ja asusteet. Uudet mallistot: adidas Originals, juoksu, jalkapallo, treeni ja monet muut."},{"tag_name":"title","tag_content":"adidas virallinen verkkosivusto | adidas Suomi"},{"tag_name":"canonical","tag_content":"https://www.adidas.fi/"},{"tag_name":"robots","tag_content":"noodp, noydir, index, follow, archive, noyaca"},{"tag_name":"og:title","tag_content":"adidas virallinen verkkosivusto | adidas Suomi"},{"tag_name":"og:description","tag_content":"Tervetuloa adidas verkkokauppaan. Löydät adidaksen kengät, vaatteet ja asusteet. Uudet mallistot: adidas Originals, juoksu, jalkapallo, treeni ja monet muut."},{"tag_name":"og:url","tag_content":"https://www.adidas.fi"},{"tag_name":"og:site_name","tag_content":"adidas Finland"}]}}]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/originals-ss18-prophere-hp-mh-d-followup_tcm146-231798.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FB_SS18_Skystalker_Predator_HP_MH_Predator_S2S_Desktop(1)_tcm146-228977.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/H21179-SS18-UB-Laceless-Women-HP-Masthead-Desktop-1366x830_tcm146-193317.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/Swimming_ss18_featurecard_mixed_desktop_mobile_tcm146-193204.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FtC_Double_Desktop_Generic_tcm146-192685.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/originals-ss18-prophere-hp-mh-d-followup_tcm146-231798.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FB_SS18_Skystalker_Predator_HP_MH_Predator_S2S_Desktop(1)_tcm146-228977.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/H21179-SS18-UB-Laceless-Women-HP-Masthead-Desktop-1366x830_tcm146-193317.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-d_tcm146-232613.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/Swimming_ss18_featurecard_mixed_desktop_mobile_tcm146-193204.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FtC_Double_Desktop_Generic_tcm146-192685.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/originals-ss18-prophere-hp-mh-m-followup_tcm146-231797.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FB_SS18_Skystalker_Predator_HP_MH_Predator_S2S_Mobile(1)_tcm146-228978.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/H21179-SS18-UB-Laceless-Women-HP-Masthead-Mobile-640x546_tcm146-193316.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-m_tcm146-232614.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/eoss-ss18-hp-fc-m_tcm146-232614.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/miadidas_NYE2017_Feature_Card_tcm146-232056.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/Swimming_ss18_featurecard_mixed_desktop_mobile_tcm146-193204.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Image URL is->https://assets.adidas.fi/image/upload/f_auto,q_auto,fl_lossy/enFI/Images/FtC_Double_Desktop_Generic_tcm146-192685.jpg]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Status is->200]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verified all the image URLs returned Http Status code as 200.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Validate_Image_URL -->
+        <test-method status="FAIL" signature="Validate_Component_AnalyticsData()[pri:0, instance:APITest.RestTest@4b9e13df]" name="Validate_Component_AnalyticsData" duration-ms="325" started-at="2017-12-30T10:53:09Z" finished-at="2017-12-30T10:53:09Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Verified Component:2 does not contain analytics_name, Verified Component:4 does not contain analytics_name]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Verified Component:2 does not contain analytics_name, Verified Component:4 does not contain analytics_name
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:38)
+	at APITest.RestService.getAnalyticsData(RestService.java:238)
+	at APITest.RestTest.Validate_Component_AnalyticsData(RestTest.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[INFO : Verifying analytics data..]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Http Get Status->200]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verified Component:1 contains analytics_name]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Component Type is-->"Core Schema - Component List"]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Analytics Name is-->"MASTHEAD-PROPHERE"]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verified Component:3 contains analytics_name]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Component Type is-->"Core Schema - Component List"]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Analytics Name is-->"MIADIDAS_TEASER"]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Validate_Component_AnalyticsData -->
+      </class> <!-- APITest.RestTest -->
+    </test> <!-- APITests -->
+  </suite> <!-- APITestSuite -->
+</testng-results>

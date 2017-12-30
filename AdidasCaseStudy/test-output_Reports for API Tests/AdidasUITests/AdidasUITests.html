@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>TestNG:  AdidasUITests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AdidasUITests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 26 14:26:02 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>203 seconds (203472 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AdidasUI.AdidasUITest.Men_Jerseys_VerifyProductItemAndPriceInOrderSummaryAndViewBag()'><b>Men_Jerseys_VerifyProductItemAndPriceInOrderSummaryAndViewBag</b><br>Test class: AdidasUI.AdidasUITest<br>Parameters: Jerseys-Real Madrid Home Authentic Jersey-€ 119,95-<br/>
+<a href="#Output-1515403487" onClick='toggleBox("Output-1515403487", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1515403487" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1515403487">
+INFO : Category to be selected: Jerseys<br/>
+INFO : Product Item to be selected: Real Madrid Home Authentic Jersey<br/>
+INFO : Expected Product Item price to be verified in UI: € 119,95<br/>
+LOG : Category: Jerseys is displayed.<br/>
+PASS : Verified Actual and Expected product item price is same for the Product: { Real Madrid Home Authentic Jersey }. Actual { € 119,95 } | Expected { € 119,95 }<br/>
+PASS : Verified Actual and Expected product item description is same in Product Items page and Order Summary Page. Actual { REAL MADRID HOME AUTHENTIC JERSEY } | Expected { REAL MADRID HOME AUTHENTIC JERSEY }<br/>
+PASS : Verified Actual and Expected product item price is same in Product Items page and Order Summary Page. Actual { € 119,95 } | Expected { € 119,95 }<br/>
+LOG : Reload button is not displayed.<br/>
+LOG : Reading message addToBagConfirmMessage = Successfully added to bag<br/>
+INFO : Selecting size-->S<br/>
+PASS : Verified Actual and Expected confirmation message is same for the Product: { Real Madrid Home Authentic Jersey } upon adding it to the bag. Actual { SUCCESSFULLY ADDED TO BAG } | Expected { Successfully added to bag }<br/>
+PASS : Verified Actual and Expected product item description is same in Product Items page and View Bag Page. Actual { REAL MADRID HOME AUTHENTIC JERSEY } | Expected { REAL MADRID HOME AUTHENTIC JERSEY }<br/>
+PASS : Verified Actual and Expected product item price is same in Product Items page and View Bag Page. Actual { € 119,95 } | Expected { € 119,95 }<br/>
+</div>
+</td>
+<td></td>
+<td>38</td>
+<td>AdidasUI.AdidasUITest@4a87761d</td></tr>
+<tr>
+<td title='AdidasUI.AdidasUITest.Men_Jerseys_VerifyProductItemAndPriceInOrderSummaryAndViewBag()'><b>Men_Jerseys_VerifyProductItemAndPriceInOrderSummaryAndViewBag</b><br>Test class: AdidasUI.AdidasUITest<br>Parameters: Jerseys-Spain Home Authentic Jersey-€ 129,95-<br/>
+<a href="#Output-807328355" onClick='toggleBox("Output-807328355", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-807328355" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-807328355">
+INFO : Category to be selected: Jerseys<br/>
+INFO : Product Item to be selected: Spain Home Authentic Jersey<br/>
+INFO : Expected Product Item price to be verified in UI: € 129,95<br/>
+LOG : Category: Jerseys is displayed.<br/>
+PASS : Verified Actual and Expected product item price is same for the Product: { Spain Home Authentic Jersey }. Actual { € 129,95 } | Expected { € 129,95 }<br/>
+PASS : Verified Actual and Expected product item description is same in Product Items page and Order Summary Page. Actual { SPAIN HOME AUTHENTIC JERSEY } | Expected { SPAIN HOME AUTHENTIC JERSEY }<br/>
+PASS : Verified Actual and Expected product item price is same in Product Items page and Order Summary Page. Actual { € 129,95 } | Expected { € 129,95 }<br/>
+LOG : Reload button is not displayed.<br/>
+LOG : Reading message addToBagConfirmMessage = Successfully added to bag<br/>
+INFO : Selecting size-->S<br/>
+PASS : Verified Actual and Expected confirmation message is same for the Product: { Spain Home Authentic Jersey } upon adding it to the bag. Actual { SUCCESSFULLY ADDED TO BAG } | Expected { Successfully added to bag }<br/>
+PASS : Verified Actual and Expected product item description is same in Product Items page and View Bag Page. Actual { SPAIN HOME AUTHENTIC JERSEY } | Expected { SPAIN HOME AUTHENTIC JERSEY }<br/>
+PASS : Verified Actual and Expected product item price is same in Product Items page and View Bag Page. Actual { € 129,95 } | Expected { € 129,95 }<br/>
+</div>
+</td>
+<td></td>
+<td>35</td>
+<td>AdidasUI.AdidasUITest@4a87761d</td></tr>
+<tr>
+<td title='AdidasUI.AdidasUITest.Men_Jerseys_VerifyProductItemAndPriceTest()'><b>Men_Jerseys_VerifyProductItemAndPriceTest</b><br>Test class: AdidasUI.AdidasUITest<br>Parameters: Jerseys-Real Madrid Home Authentic Jersey-€ 119,95-<br/>
+<a href="#Output-122155649" onClick='toggleBox("Output-122155649", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-122155649" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-122155649">
+INFO : Category to be selected: Jerseys<br/>
+INFO : Product Item to be selected: Real Madrid Home Authentic Jersey<br/>
+INFO : Expected Product Item price to be verified in UI: € 119,95<br/>
+LOG : Category: Jerseys is displayed.<br/>
+PASS : Verified Actual and Expected product item price is same for the Product: { Real Madrid Home Authentic Jersey }. Actual { € 119,95 } | Expected { € 119,95 }<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>AdidasUI.AdidasUITest@4a87761d</td></tr>
+<tr>
+<td title='AdidasUI.AdidasUITest.Men_Jerseys_VerifyProductItemAndPriceTest()'><b>Men_Jerseys_VerifyProductItemAndPriceTest</b><br>Test class: AdidasUI.AdidasUITest<br>Parameters: Jerseys-Spain Home Authentic Jersey-€ 129,95-<br/>
+<a href="#Output-1581267786" onClick='toggleBox("Output-1581267786", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1581267786" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1581267786">
+INFO : Category to be selected: Jerseys<br/>
+INFO : Product Item to be selected: Spain Home Authentic Jersey<br/>
+INFO : Expected Product Item price to be verified in UI: € 129,95<br/>
+LOG : Category: Jerseys is displayed.<br/>
+PASS : Verified Actual and Expected product item price is same for the Product: { Spain Home Authentic Jersey }. Actual { € 129,95 } | Expected { € 129,95 }<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>AdidasUI.AdidasUITest@4a87761d</td></tr>
+</table><p>
+</body>
+</html>

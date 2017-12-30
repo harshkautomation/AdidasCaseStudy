@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AdidasUITests]">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="url" value="https://www.adidas.fi/"/>
+  <test name="AdidasUIChromeTests(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://www.adidas.fi/"/>
+    <classes>
+      <class name="AdidasUI.AdidasUITest">
+        <methods>
+          <include name="AdidasUI_HomePage_OrderTracker_Validate_Mandatory_Fields_OrderNumber_And_Email"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- AdidasUI.AdidasUITest -->
+    </classes>
+  </test> <!-- AdidasUIChromeTests(failed) -->
+</suite> <!-- Failed suite [AdidasUITests] -->

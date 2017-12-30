@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Locators initialized]]>
+    </line>
+    <line>
+      <![CDATA[Locators set]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Browser type on which present tests are executed-->firefox]]>
+    </line>
+    <line>
+      <![CDATA[INFO : URL->https://www.adidas.fi/]]>
+    </line>
+    <line>
+      <![CDATA[<pre>Test Name : AdidasUI_Category_VerifyProductItemAndPriceTest</pre>]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Category to be selected: Men]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Sub Category to be selected: Jerseys]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Product Item to be selected: Spain Home Authentic Jersey]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Expected Product Item price to be verified in UI: € 129,95]]>
+    </line>
+    <line>
+      <![CDATA[LOG : Category: Jerseys is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[LOG : Price: € 129,95]]>
+    </line>
+    <line>
+      <![CDATA[SS +./screenshots/getPricescreenshot5264177744297659253.png]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verified Actual and Expected product item price is same for the Product: { Spain Home Authentic Jersey }. Actual { € 129,95 } | Expected { € 129,95 }]]>
+    </line>
+    <line>
+      <![CDATA[SS +./screenshots/AdidasUI_Category_VerifyProductItemAndPriceTestscreenshot8927219029235576530.png]]>
+    </line>
+    <line>
+      <![CDATA[*****************-********************************-*********************************************************-**********************]]>
+    </line>
+    <line>
+      <![CDATA[<pre>Test Name : AdidasUI_Category_VerifyProductItemAndPriceTest</pre>]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Category to be selected: Men]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Sub Category to be selected: Jerseys]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Product Item to be selected: Germany Home Authentic Jersey]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Expected Product Item price to be verified in UI: € 129,95]]>
+    </line>
+    <line>
+      <![CDATA[LOG : Category: Jerseys is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[LOG : Price: € 129,95]]>
+    </line>
+    <line>
+      <![CDATA[SS +./screenshots/getPricescreenshot8849510894493510958.png]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verified Actual and Expected product item price is same for the Product: { Germany Home Authentic Jersey }. Actual { € 129,95 } | Expected { € 129,95 }]]>
+    </line>
+    <line>
+      <![CDATA[SS +./screenshots/AdidasUI_Category_VerifyProductItemAndPriceTestscreenshot4151334612371982034.png]]>
+    </line>
+    <line>
+      <![CDATA[*****************-********************************-*********************************************************-**********************]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Browser type on which present tests are executed-->googlechrome]]>
+    </line>
+    <line>
+      <![CDATA[INFO : URL->https://www.adidas.fi/]]>
+    </line>
+  </reporter-output>
+  <suite name="AdidasUITests" duration-ms="139479" started-at="2017-12-30T05:36:50Z" finished-at="2017-12-30T05:39:10Z">
+    <groups>
+    </groups>
+    <test name="AdidasUIFirefoxTests" duration-ms="139448" started-at="2017-12-30T05:36:50Z" finished-at="2017-12-30T05:39:10Z">
+      <class name="AdidasUI.AdidasUITest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:AdidasUI.AdidasUITest@4fe3c938]" name="beforeTest" is-config="true" duration-ms="16" started-at="2017-12-30T11:06:50Z" finished-at="2017-12-30T11:06:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.adidas.fi/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[INFO : Browser type on which present tests are executed-->firefox]]>
+            </line>
+            <line>
+              <![CDATA[INFO : URL->https://www.adidas.fi/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AdidasUI.AdidasUITest@4fe3c938]" name="beforeMethod" is-config="true" duration-ms="19816" started-at="2017-12-30T11:06:51Z" finished-at="2017-12-30T11:07:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AdidasUI_Category_VerifyProductItemAndPriceTest(java.lang.String)[pri:0, instance:AdidasUI.AdidasUITest@4fe3c938]" name="AdidasUI_Category_VerifyProductItemAndPriceTest" duration-ms="24683" started-at="2017-12-30T11:07:10Z" data-provider="productItemAndPriceData" finished-at="2017-12-30T11:07:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Men-Jerseys-Spain Home Authentic Jersey-€ 129,95-]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[INFO : Category to be selected: Men]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Sub Category to be selected: Jerseys]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Product Item to be selected: Spain Home Authentic Jersey]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Expected Product Item price to be verified in UI: € 129,95]]>
+            </line>
+            <line>
+              <![CDATA[LOG : Category: Jerseys is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[LOG : Price: € 129,95]]>
+            </line>
+            <line>
+              <![CDATA[SS +./screenshots/getPricescreenshot5264177744297659253.png]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verified Actual and Expected product item price is same for the Product: { Spain Home Authentic Jersey }. Actual { € 129,95 } | Expected { € 129,95 }]]>
+            </line>
+            <line>
+              <![CDATA[SS +./screenshots/AdidasUI_Category_VerifyProductItemAndPriceTestscreenshot8927219029235576530.png]]>
+            </line>
+            <line>
+              <![CDATA[*****************-********************************-*********************************************************-**********************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AdidasUI_Category_VerifyProductItemAndPriceTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AdidasUI.AdidasUITest@4fe3c938]" name="afterMethod" is-config="true" duration-ms="1146" started-at="2017-12-30T11:07:35Z" finished-at="2017-12-30T11:07:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AdidasUI.AdidasUITest@4fe3c938]" name="beforeMethod" is-config="true" duration-ms="15117" started-at="2017-12-30T11:07:36Z" finished-at="2017-12-30T11:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AdidasUI_Category_VerifyProductItemAndPriceTest(java.lang.String)[pri:0, instance:AdidasUI.AdidasUITest@4fe3c938]" name="AdidasUI_Category_VerifyProductItemAndPriceTest" duration-ms="77418" started-at="2017-12-30T11:07:51Z" data-provider="productItemAndPriceData" finished-at="2017-12-30T11:09:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Men-Jerseys-Germany Home Authentic Jersey-€ 129,95-]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[INFO : Category to be selected: Men]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Sub Category to be selected: Jerseys]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Product Item to be selected: Germany Home Authentic Jersey]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Expected Product Item price to be verified in UI: € 129,95]]>
+            </line>
+            <line>
+              <![CDATA[LOG : Category: Jerseys is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[LOG : Price: € 129,95]]>
+            </line>
+            <line>
+              <![CDATA[SS +./screenshots/getPricescreenshot8849510894493510958.png]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verified Actual and Expected product item price is same for the Product: { Germany Home Authentic Jersey }. Actual { € 129,95 } | Expected { € 129,95 }]]>
+            </line>
+            <line>
+              <![CDATA[SS +./screenshots/AdidasUI_Category_VerifyProductItemAndPriceTestscreenshot4151334612371982034.png]]>
+            </line>
+            <line>
+              <![CDATA[*****************-********************************-*********************************************************-**********************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AdidasUI_Category_VerifyProductItemAndPriceTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AdidasUI.AdidasUITest@4fe3c938]" name="afterMethod" is-config="true" duration-ms="1127" started-at="2017-12-30T11:09:09Z" finished-at="2017-12-30T11:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:AdidasUI.AdidasUITest@4fe3c938]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-12-30T11:09:10Z" finished-at="2017-12-30T11:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- AdidasUI.AdidasUITest -->
+    </test> <!-- AdidasUIFirefoxTests -->
+    <test name="AdidasUIChromeTests" duration-ms="0" started-at="2017-12-30T05:39:10Z" finished-at="2017-12-30T05:39:10Z">
+      <class name="AdidasUI.AdidasUITest">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:AdidasUI.AdidasUITest@1f28c152]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-12-30T11:09:10Z" finished-at="2017-12-30T11:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:AdidasUI.AdidasUITest@1f28c152]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-12-30T11:09:10Z" finished-at="2017-12-30T11:09:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[googlechrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.adidas.fi/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[INFO : Browser type on which present tests are executed-->googlechrome]]>
+            </line>
+            <line>
+              <![CDATA[INFO : URL->https://www.adidas.fi/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- AdidasUI.AdidasUITest -->
+    </test> <!-- AdidasUIChromeTests -->
+  </suite> <!-- AdidasUITests -->
+</testng-results>

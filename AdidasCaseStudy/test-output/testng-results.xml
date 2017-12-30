@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Locators initialized]]>
+    </line>
+    <line>
+      <![CDATA[Locators set]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Browser type on which present tests are executed-->googlechrome]]>
+    </line>
+    <line>
+      <![CDATA[INFO : URL->https://www.adidas.fi/]]>
+    </line>
+    <line>
+      <![CDATA[LOG : Category: Jerseys is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[SS +./screenshots/getFirstProductItemTextAndPricescreenshot8831068811200009068.png]]>
+    </line>
+    <line>
+      <![CDATA[LOG : First Item->[SPAIN HOME AUTHENTIC JERSEY, € 129,95]]]>
+    </line>
+    <line>
+      <![CDATA[LOG : Order summary->[SPAIN HOME AUTHENTIC JERSEY, € 129,95]]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verified Actual and Expected product item description and item price is same in Product Item page and Order Summary Page. Actual Product Item Description { SPAIN HOME AUTHENTIC JERSEY } | Expected Product Item Description { SPAIN HOME AUTHENTIC JERSEY }.Actual Product Item Price { € 129,95 } | Expected Product Item Price { € 129,95 }.]]>
+    </line>
+    <line>
+      <![CDATA[LOG : Reload button is not displayed.]]>
+    </line>
+    <line>
+      <![CDATA[LOG : Reading message addToBagConfirmMessage = Successfully added to bag]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Selecting size-->S]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verified Actual and Expected confirmation message is same for the Product: { SPAIN HOME AUTHENTIC JERSEY } upon adding it to the bag. Actual { SUCCESSFULLY ADDED TO BAG } | Expected { Successfully added to bag }]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verified Actual and Expected product item description is same in Product Items page and View Bag Page. Actual { SPAIN HOME AUTHENTIC JERSEY } | Expected { SPAIN HOME AUTHENTIC JERSEY }]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verified Actual and Expected product item price is same in Product Items page and View Bag Page. Actual { € 129,95 } | Expected { € 129,95 }]]>
+    </line>
+    <line>
+      <![CDATA[SS +./screenshots/AdidasUI_Men_Jerseys_VerifyFirstProductSelectionAndPriceTestscreenshot3098709155591990122.png]]>
+    </line>
+    <line>
+      <![CDATA[LOG : Reading message bagEmptyMessage = YOUR BAG IS EMPTY]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verified Actual and Expected message are same for the Empty Bag. Actual { YOUR BAG IS EMPTY } | Expected { YOUR BAG IS EMPTY }]]>
+    </line>
+    <line>
+      <![CDATA[SS +./screenshots/AdidasUI_Verify_Empty_Bagscreenshot1806530146480393757.png]]>
+    </line>
+  </reporter-output>
+  <suite name="AdidasUITests" duration-ms="65341" started-at="2017-12-29T16:39:18Z" finished-at="2017-12-29T16:40:23Z">
+    <groups>
+    </groups>
+    <test name="AdidasUIChromeTests" duration-ms="65341" started-at="2017-12-29T16:39:18Z" finished-at="2017-12-29T16:40:23Z">
+      <class name="AdidasUI.AdidasUITest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:AdidasUI.AdidasUITest@7cbd213e]" name="beforeTest" is-config="true" duration-ms="15" started-at="2017-12-29T22:09:18Z" finished-at="2017-12-29T22:09:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[googlechrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.adidas.fi/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[INFO : Browser type on which present tests are executed-->googlechrome]]>
+            </line>
+            <line>
+              <![CDATA[INFO : URL->https://www.adidas.fi/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AdidasUI.AdidasUITest@7cbd213e]" name="beforeMethod" is-config="true" duration-ms="11553" started-at="2017-12-29T22:09:18Z" finished-at="2017-12-29T22:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AdidasUI_Men_Jerseys_VerifyFirstProductSelectionAndPriceTest()[pri:0, instance:AdidasUI.AdidasUITest@7cbd213e]" name="AdidasUI_Men_Jerseys_VerifyFirstProductSelectionAndPriceTest" duration-ms="36144" started-at="2017-12-29T22:09:30Z" finished-at="2017-12-29T22:10:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[LOG : Category: Jerseys is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[SS +./screenshots/getFirstProductItemTextAndPricescreenshot8831068811200009068.png]]>
+            </line>
+            <line>
+              <![CDATA[LOG : First Item->[SPAIN HOME AUTHENTIC JERSEY, € 129,95]]]>
+            </line>
+            <line>
+              <![CDATA[LOG : Order summary->[SPAIN HOME AUTHENTIC JERSEY, € 129,95]]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verified Actual and Expected product item description and item price is same in Product Item page and Order Summary Page. Actual Product Item Description { SPAIN HOME AUTHENTIC JERSEY } | Expected Product Item Description { SPAIN HOME AUTHENTIC JERSEY }.Actual Product Item Price { € 129,95 } | Expected Product Item Price { € 129,95 }.]]>
+            </line>
+            <line>
+              <![CDATA[LOG : Reload button is not displayed.]]>
+            </line>
+            <line>
+              <![CDATA[LOG : Reading message addToBagConfirmMessage = Successfully added to bag]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Selecting size-->S]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verified Actual and Expected confirmation message is same for the Product: { SPAIN HOME AUTHENTIC JERSEY } upon adding it to the bag. Actual { SUCCESSFULLY ADDED TO BAG } | Expected { Successfully added to bag }]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verified Actual and Expected product item description is same in Product Items page and View Bag Page. Actual { SPAIN HOME AUTHENTIC JERSEY } | Expected { SPAIN HOME AUTHENTIC JERSEY }]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verified Actual and Expected product item price is same in Product Items page and View Bag Page. Actual { € 129,95 } | Expected { € 129,95 }]]>
+            </line>
+            <line>
+              <![CDATA[SS +./screenshots/AdidasUI_Men_Jerseys_VerifyFirstProductSelectionAndPriceTestscreenshot3098709155591990122.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AdidasUI_Men_Jerseys_VerifyFirstProductSelectionAndPriceTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AdidasUI.AdidasUITest@7cbd213e]" name="afterMethod" is-config="true" duration-ms="3213" started-at="2017-12-29T22:10:06Z" finished-at="2017-12-29T22:10:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AdidasUI.AdidasUITest@7cbd213e]" name="beforeMethod" is-config="true" duration-ms="7687" started-at="2017-12-29T22:10:09Z" finished-at="2017-12-29T22:10:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AdidasUI_Verify_Empty_Bag()[pri:0, instance:AdidasUI.AdidasUITest@7cbd213e]" name="AdidasUI_Verify_Empty_Bag" duration-ms="3604" started-at="2017-12-29T22:10:17Z" finished-at="2017-12-29T22:10:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[LOG : Reading message bagEmptyMessage = YOUR BAG IS EMPTY]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verified Actual and Expected message are same for the Empty Bag. Actual { YOUR BAG IS EMPTY } | Expected { YOUR BAG IS EMPTY }]]>
+            </line>
+            <line>
+              <![CDATA[SS +./screenshots/AdidasUI_Verify_Empty_Bagscreenshot1806530146480393757.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AdidasUI_Verify_Empty_Bag -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AdidasUI.AdidasUITest@7cbd213e]" name="afterMethod" is-config="true" duration-ms="3106" started-at="2017-12-29T22:10:20Z" finished-at="2017-12-29T22:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:AdidasUI.AdidasUITest@7cbd213e]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-12-29T22:10:23Z" finished-at="2017-12-29T22:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- AdidasUI.AdidasUITest -->
+    </test> <!-- AdidasUIChromeTests -->
+  </suite> <!-- AdidasUITests -->
+</testng-results>
