@@ -1,0 +1,219 @@
+<html>
+<head>
+<title>TestNG:  AdidasUIFirefoxTests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AdidasUIFirefoxTests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 29 23:00:38 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>322 seconds (322188 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AdidasUI.AdidasUITest.AdidasUI_Category_SortBy_Price_LowToHigh()'><b>AdidasUI_Category_SortBy_Price_LowToHigh</b><br>Test class: AdidasUI.AdidasUITest<br>Parameters: Women-Jackets-<br/>
+<a href="#Output-310016558" onClick='toggleBox("Output-310016558", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-310016558" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-310016558">
+INFO : Category to be selected: Women<br/>
+INFO : Sub Category to be selected: Jackets<br/>
+LOG : Category: Jackets is displayed.<br/>
+LOG : Original Price list: [99,98, 90,96, 54,95, 97,96, 64,98, 76,96, 195,96, 124,95, 118,96, 79,95, 139,96, 89,95, 76,96, 74,95, 169,95, 160,96, 45,46, 52,46, 52,46, 139,96, 99,95, 169,95, 244,96, 160,96]<br/>
+PASS : Verified all the prices displayed in Women category are in sorted order from Low Price to High Price.<br/>
+SS +./screenshots/AdidasUI_Category_SortBy_Price_LowToHighscreenshot2136191353337053214.png<br/>
+*****************-********************************-*********************************************************-**********************<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>AdidasUI.AdidasUITest@4fe3c938</td></tr>
+<tr>
+<td title='AdidasUI.AdidasUITest.AdidasUI_Category_SortBy_Price_LowToHigh()'><b>AdidasUI_Category_SortBy_Price_LowToHigh</b><br>Test class: AdidasUI.AdidasUITest<br>Parameters: Men-Jerseys-<br/>
+<a href="#Output-1826334428" onClick='toggleBox("Output-1826334428", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1826334428" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1826334428">
+INFO : Category to be selected: Men<br/>
+INFO : Sub Category to be selected: Jerseys<br/>
+LOG : Category: Jerseys is displayed.<br/>
+LOG : Original Price list: [129,95, 129,95, 89,95, 89,95, 89,95, 89,95, 89,95, 89,95, 99,95, 89,95, 59,95, 89,95, 84,95, 84,95, 99,95, 99,95, 44,95, 44,95, 44,95, 99,95, 89,95, 89,95, 89,95, 89,95]<br/>
+PASS : Verified all the prices displayed in Men category are in sorted order from Low Price to High Price.<br/>
+SS +./screenshots/AdidasUI_Category_SortBy_Price_LowToHighscreenshot3905173525488910598.png<br/>
+*****************-********************************-*********************************************************-**********************<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>AdidasUI.AdidasUITest@4fe3c938</td></tr>
+<tr>
+<td title='AdidasUI.AdidasUITest.AdidasUI_Category_VerifyProductItemAndPriceInOrderSummaryAndViewBag()'><b>AdidasUI_Category_VerifyProductItemAndPriceInOrderSummaryAndViewBag</b><br>Test class: AdidasUI.AdidasUITest<br>Parameters: Men-Jerseys-Spain Home Authentic Jersey-€ 129,95-<br/>
+<a href="#Output-412111214" onClick='toggleBox("Output-412111214", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-412111214" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-412111214">
+INFO : Category to be selected: Men<br/>
+INFO : Sub Category to be selected: Jerseys<br/>
+INFO : Product Item to be selected: Spain Home Authentic Jersey<br/>
+INFO : Expected Product Item price to be verified in UI: € 129,95<br/>
+LOG : Category: Jerseys is displayed.<br/>
+LOG : Price: € 129,95<br/>
+SS +./screenshots/getPricescreenshot619125198888410925.png<br/>
+PASS : Verified Actual and Expected product item price is same for the Product: { Spain Home Authentic Jersey }. Actual { € 129,95 } | Expected { € 129,95 }<br/>
+PASS : Verified Actual and Expected product item description is same in Product Items page and Order Summary Page. Actual { SPAIN HOME AUTHENTIC JERSEY } | Expected { SPAIN HOME AUTHENTIC JERSEY }<br/>
+PASS : Verified Actual and Expected product item price is same in Product Items page and Order Summary Page. Actual { € 129,95 } | Expected { € 129,95 }<br/>
+SS +./screenshots/AdidasUI_Category_VerifyProductItemAndPriceInOrderSummaryAndViewBagscreenshot8901794728896486986.png<br/>
+LOG : Reload button is not displayed.<br/>
+LOG : Reading message addToBagConfirmMessage = Successfully added to bag<br/>
+INFO : Selecting size-->S<br/>
+PASS : Verified Actual and Expected confirmation message is same for the Product: { Spain Home Authentic Jersey } upon adding it to the bag. Actual { SUCCESSFULLY ADDED TO BAG } | Expected { SUCCESSFULLY ADDED TO BAG }<br/>
+SS +./screenshots/AdidasUI_Category_VerifyProductItemAndPriceInOrderSummaryAndViewBagscreenshot4884217197543356610.png<br/>
+PASS : Verified Actual and Expected product item description is same in Product Items page and View Bag Page. Actual { SPAIN HOME AUTHENTIC JERSEY } | Expected { SPAIN HOME AUTHENTIC JERSEY }<br/>
+PASS : Verified Actual and Expected product item price is same in Product Items page and View Bag Page. Actual { € 129,95 } | Expected { € 129,95 }<br/>
+SS +./screenshots/AdidasUI_Category_VerifyProductItemAndPriceInOrderSummaryAndViewBagscreenshot360851972160714336.png<br/>
+*****************-********************************-*********************************************************-**********************<br/>
+</div>
+</td>
+<td></td>
+<td>56</td>
+<td>AdidasUI.AdidasUITest@4fe3c938</td></tr>
+<tr>
+<td title='AdidasUI.AdidasUITest.AdidasUI_Category_VerifyProductItemAndPriceInOrderSummaryAndViewBag()'><b>AdidasUI_Category_VerifyProductItemAndPriceInOrderSummaryAndViewBag</b><br>Test class: AdidasUI.AdidasUITest<br>Parameters: Men-Jerseys-Germany Home Authentic Jersey-€ 129,95-<br/>
+<a href="#Output-2139788441" onClick='toggleBox("Output-2139788441", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2139788441" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2139788441">
+INFO : Category to be selected: Men<br/>
+INFO : Sub Category to be selected: Jerseys<br/>
+INFO : Product Item to be selected: Germany Home Authentic Jersey<br/>
+INFO : Expected Product Item price to be verified in UI: € 129,95<br/>
+LOG : Category: Jerseys is displayed.<br/>
+LOG : Price: € 129,95<br/>
+SS +./screenshots/getPricescreenshot333592897144792831.png<br/>
+PASS : Verified Actual and Expected product item price is same for the Product: { Germany Home Authentic Jersey }. Actual { € 129,95 } | Expected { € 129,95 }<br/>
+PASS : Verified Actual and Expected product item description is same in Product Items page and Order Summary Page. Actual { GERMANY HOME AUTHENTIC JERSEY } | Expected { GERMANY HOME AUTHENTIC JERSEY }<br/>
+PASS : Verified Actual and Expected product item price is same in Product Items page and Order Summary Page. Actual { € 129,95 } | Expected { € 129,95 }<br/>
+SS +./screenshots/AdidasUI_Category_VerifyProductItemAndPriceInOrderSummaryAndViewBagscreenshot8978981451487192243.png<br/>
+LOG : Reload button is not displayed.<br/>
+LOG : Reading message addToBagConfirmMessage = Successfully added to bag<br/>
+INFO : Selecting size-->XS<br/>
+PASS : Verified Actual and Expected confirmation message is same for the Product: { Germany Home Authentic Jersey } upon adding it to the bag. Actual { SUCCESSFULLY ADDED TO BAG } | Expected { SUCCESSFULLY ADDED TO BAG }<br/>
+SS +./screenshots/AdidasUI_Category_VerifyProductItemAndPriceInOrderSummaryAndViewBagscreenshot7474875295013874474.png<br/>
+PASS : Verified Actual and Expected product item description is same in Product Items page and View Bag Page. Actual { GERMANY HOME AUTHENTIC JERSEY } | Expected { GERMANY HOME AUTHENTIC JERSEY }<br/>
+PASS : Verified Actual and Expected product item price is same in Product Items page and View Bag Page. Actual { € 129,95 } | Expected { € 129,95 }<br/>
+SS +./screenshots/AdidasUI_Category_VerifyProductItemAndPriceInOrderSummaryAndViewBagscreenshot9077299252171672115.png<br/>
+*****************-********************************-*********************************************************-**********************<br/>
+</div>
+</td>
+<td></td>
+<td>63</td>
+<td>AdidasUI.AdidasUITest@4fe3c938</td></tr>
+<tr>
+<td title='AdidasUI.AdidasUITest.AdidasUI_Category_VerifyProductItemAndPriceTest()'><b>AdidasUI_Category_VerifyProductItemAndPriceTest</b><br>Test class: AdidasUI.AdidasUITest<br>Parameters: Men-Jerseys-Spain Home Authentic Jersey-€ 129,95-<br/>
+<a href="#Output-1272883899" onClick='toggleBox("Output-1272883899", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1272883899" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1272883899">
+INFO : Category to be selected: Men<br/>
+INFO : Sub Category to be selected: Jerseys<br/>
+INFO : Product Item to be selected: Spain Home Authentic Jersey<br/>
+INFO : Expected Product Item price to be verified in UI: € 129,95<br/>
+LOG : Category: Jerseys is displayed.<br/>
+LOG : Price: € 129,95<br/>
+SS +./screenshots/getPricescreenshot3152195926712794923.png<br/>
+PASS : Verified Actual and Expected product item price is same for the Product: { Spain Home Authentic Jersey }. Actual { € 129,95 } | Expected { € 129,95 }<br/>
+SS +./screenshots/AdidasUI_Category_VerifyProductItemAndPriceTestscreenshot7974707365020666613.png<br/>
+*****************-********************************-*********************************************************-**********************<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>AdidasUI.AdidasUITest@4fe3c938</td></tr>
+<tr>
+<td title='AdidasUI.AdidasUITest.AdidasUI_Category_VerifyProductItemAndPriceTest()'><b>AdidasUI_Category_VerifyProductItemAndPriceTest</b><br>Test class: AdidasUI.AdidasUITest<br>Parameters: Men-Jerseys-Germany Home Authentic Jersey-€ 129,95-<br/>
+<a href="#Output-1023268896" onClick='toggleBox("Output-1023268896", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1023268896" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1023268896">
+INFO : Category to be selected: Men<br/>
+INFO : Sub Category to be selected: Jerseys<br/>
+INFO : Product Item to be selected: Germany Home Authentic Jersey<br/>
+INFO : Expected Product Item price to be verified in UI: € 129,95<br/>
+LOG : Category: Jerseys is displayed.<br/>
+LOG : Price: € 129,95<br/>
+SS +./screenshots/getPricescreenshot7873027128589502917.png<br/>
+PASS : Verified Actual and Expected product item price is same for the Product: { Germany Home Authentic Jersey }. Actual { € 129,95 } | Expected { € 129,95 }<br/>
+SS +./screenshots/AdidasUI_Category_VerifyProductItemAndPriceTestscreenshot6306036774451458630.png<br/>
+*****************-********************************-*********************************************************-**********************<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>AdidasUI.AdidasUITest@4fe3c938</td></tr>
+</table><p>
+</body>
+</html>

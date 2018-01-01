@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AdidasUITests]">
+  <parameter name="browser" value="googlechrome"/>
+  <parameter name="url" value="https://www.adidas.fi/"/>
+  <test name="AdidasUIFirefoxTests(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://www.adidas.fi/"/>
+    <classes>
+      <class name="AdidasUI.AdidasUITest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="AdidasUI_Category_VerifyProductItemAndPriceTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="AdidasUI_Category_SortBy_Price_LowToHigh"/>
+          <include name="AdidasUI_Category_VerifyProductItemAndPriceInOrderSummaryAndViewBag"/>
+        </methods>
+      </class> <!-- AdidasUI.AdidasUITest -->
+    </classes>
+  </test> <!-- AdidasUIFirefoxTests(failed) -->
+  <test name="AdidasUIChromeTests(failed)">
+    <parameter name="browser" value="googlechrome"/>
+    <parameter name="url" value="https://www.adidas.fi/"/>
+    <classes>
+      <class name="AdidasUI.AdidasUITest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="AdidasUI_Verify_Empty_Bag"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="AdidasUI_HomePage_Search"/>
+          <include name="AdidasUI_Men_Jerseys_VerifyFirstProductSelectionAndPriceTest"/>
+        </methods>
+      </class> <!-- AdidasUI.AdidasUITest -->
+    </classes>
+  </test> <!-- AdidasUIChromeTests(failed) -->
+</suite> <!-- Failed suite [AdidasUITests] -->

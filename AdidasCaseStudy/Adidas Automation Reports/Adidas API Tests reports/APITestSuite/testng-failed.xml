@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [APITestSuite]">
+  <test name="APITests(failed)">
+    <classes>
+      <class name="APITest.RestTest">
+        <methods>
+          <include name="Validate_Component_AnalyticsData"/>
+        </methods>
+      </class> <!-- APITest.RestTest -->
+    </classes>
+  </test> <!-- APITests(failed) -->
+</suite> <!-- Failed suite [APITestSuite] -->
