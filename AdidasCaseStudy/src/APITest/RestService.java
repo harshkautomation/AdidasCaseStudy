@@ -44,7 +44,7 @@ public class RestService {
 		rm.dispose();
 
 		if(resp.getStatus()!=200)
-			throw new SocketTimeoutException("Failure: Response time exceeded 1 sec!");
+			throw new RuntimeException("Rest GET call is not successful. Http status code is not 200 and status code returned is: "+resp.getStatus());
 		
 		reportInfo("Status code is-->"+resp.getStatus());
 		
@@ -80,7 +80,7 @@ public class RestService {
 		rm.dispose();
 
 		if(resp.getStatus()!=200)
-			throw new SocketTimeoutException("Failure: Response time exceeded 1 sec!");
+			throw new RuntimeException("Rest GET call is not successful. Http status code is not 200 and status code returned is: "+resp.getStatus());
 		
 		reportLog("Status->"+resp.getStatus());
 		
@@ -170,7 +170,7 @@ public class RestService {
 	    			rm.dispose();
 	    			
 	    			if(resp.getStatus()!=200)
-	    				throw new RuntimeException("Failure: Http Get Status code is not 200 and is-->"+resp.getStatus());
+	    				throw new RuntimeException("Rest GET call is not successful. Http status code is not 200 and status code returned is: "+resp.getStatus());
 	    			
 	    			reportInfo("Status is->"+resp.getStatus());
 	    			
@@ -197,7 +197,7 @@ public class RestService {
 		rm.dispose();
 
 		if(resp.getStatus()!=200)
-			throw new SocketTimeoutException("Failure: Response time exceeded 1 sec!");
+			throw new RuntimeException("Rest GET call is not successful. Http status code is not 200 and status code returned is: "+resp.getStatus());
 		
 		reportInfo("Http Get Status->"+resp.getStatus());
 		
@@ -263,9 +263,6 @@ public class RestService {
  		
  		Map<String,Object> map = new HashMap<String,Object>();
  		map = (Map<String,Object>) gson.fromJson(jsonString, map.getClass());
- 		
- 		System.out.println("Map form of JSON-->"+map);
- 		
  		return map;
  	}
 }
