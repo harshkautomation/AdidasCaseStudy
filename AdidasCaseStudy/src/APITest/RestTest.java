@@ -33,7 +33,7 @@ public class RestTest {
 	 * This test validates the response time of the given URL to be below 1 second. 
 	 * @throws SocketTimeoutException if response time is not below 1 second.
 	 */
-	@Test(enabled=true,priority=0)
+	@Test(priority=0)
 	public void Validate_Response_Time() throws SocketTimeoutException
 	{
 		//Store given URL in a string.
@@ -54,7 +54,7 @@ public class RestTest {
 	 * GET call is performed on all the image URLs obtained from JSON response and response status is verified to be 200 for success.
 	 * @throws SocketTimeoutException if response time is not below 1 second.
 	 */
-	@Test(enabled=false,priority=1)
+	@Test(priority=1)
 	public void Validate_Image_URL() throws SocketTimeoutException
 	{
 		boolean flag=false;
@@ -65,14 +65,7 @@ public class RestTest {
 		String URL = "https://www.adidas.fi/api/pages/landing?url=index.html";
 		List<List<String>> imageURLCollection = new ArrayList<List<String>>();
 	
-		System.out.println("printing the image URLs...");
-		imageURLCollection = RestService.getImageURLFromClientResponse(URL);
-		
-		for(List<String> imageURL: imageURLCollection) {
-			
-			System.out.println(imageURL);
-		}
-		
+		imageURLCollection = RestService.getImageURLFromClientResponse(URL);	
 		statusCodes = RestService.validateImageURLs(imageURLCollection);
 		
 		//Perform check of each status code to be 200 in the statusCodes collection indicating successful 
@@ -100,7 +93,7 @@ public class RestTest {
 	 * Tests shall PASS if the component contains “analytics_name” in it, else tests will FAIL if “analytics_name” is not present.
 	 * @throws SocketTimeoutException if response time is not below 1 second.
 	 */
-	@Test(enabled=false,priority=2)
+	@Test(priority=2)
 	public void Validate_Component_AnalyticsData() throws SocketTimeoutException
 	{
 		//Presently storing URL in a string variable.
